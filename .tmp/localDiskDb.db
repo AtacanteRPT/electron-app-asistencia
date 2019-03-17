@@ -1,0 +1,55 @@
+{
+  "data": {
+    "configuracion": [
+      {
+        "id": 1,
+        "servidorUrl": "http://moswara.com:48000",
+        "puertoCom_6": "",
+        "puertoCom_1": "",
+        "puertoCom_2": "",
+        "puertoCom_3": "",
+        "puertoCom_4": "",
+        "puertoCom_5": "COM5",
+        "createdAt": "2018-04-20T07:48:01.653Z",
+        "updatedAt": "2018-04-21T22:44:14.847Z"
+      }
+    ]
+  },
+  "schema": {
+    "configuracion": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true,
+        "size": 11
+      },
+      "servidorUrl": {
+        "type": "string",
+        "size": 20,
+        "defaultsTo": null
+      },
+      "puertoCom_1": {
+        "type": "string",
+        "size": 20,
+        "defaultsTo": null
+      },
+      "puertoCom_2": {
+        "type": "string",
+        "size": 20,
+        "defaultsTo": null
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "configuracion": {
+      "id": 1
+    }
+  }
+}
